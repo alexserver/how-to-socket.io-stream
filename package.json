@@ -1,0 +1,29 @@
+{
+  "name": "how-to-socket.io-stream",
+  "version": "0.0.0",
+  "description": "A quick how-to to get socket.io running via browserify.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexserver/how-to-socket.io-stream.git"
+  },
+  "keywords": [
+    "socket.io-stream",
+    "sockets"
+  ],
+  "author": "Alejandro Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexserver/how-to-socket.io-stream/issues"
+  },
+  "homepage": "https://github.com/alexserver/how-to-socket.io-stream",
+  "dependencies": {
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6",
+    "socket.io-stream": "^0.5.3"
+  }
+}
